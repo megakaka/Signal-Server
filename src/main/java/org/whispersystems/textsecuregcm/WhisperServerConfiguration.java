@@ -120,12 +120,10 @@ public class WhisperServerConfiguration extends Configuration {
   private TurnConfiguration turn;
 
   @Valid
-  @NotNull
   @JsonProperty
   private GcmConfiguration gcm;
 
   @Valid
-  @NotNull
   @JsonProperty
   private ApnConfiguration apn;
 

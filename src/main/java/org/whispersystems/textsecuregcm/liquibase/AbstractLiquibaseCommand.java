@@ -30,6 +30,7 @@ public abstract class AbstractLiquibaseCommand<T extends Configuration> extends 
     this.migrations         = migrations;
     this.strategy           = strategy;
     this.configurationClass = configurationClass;
+    System.out.println(getConfigurationClass());
   }
 
   @Override
